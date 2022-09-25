@@ -1,0 +1,647 @@
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+.mobile-profile {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 83%;
+  top: 23px;
+
+}
+span .mobile-logo {
+  width: 125px;
+  height: 60px;
+  position: absolute;
+  top: 25px;
+  left: 75px;
+}
+.mobile-menu {
+  color: white;
+  font-size: 37px;
+  position: absolute;
+  top: 38px;
+  left: 12px;
+}
+.navbar {
+  width: 100%;
+height: 88px;
+/* highlight color/ button color */
+background: #8030D0;
+}
+
+.main-section h1 {
+  margin: 65px 0 0 50px ;
+  font-weight: 500px;
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 19px;
+
+/* primary font color */
+
+color: #16163F;
+  
+}
+
+.top-section img {
+  width: 40px;
+  position: absolute;
+  left: 293px;
+top: 143px;
+  /* left: 260px;
+  top: 126px; */
+}
+
+.mobile-progress {
+  /* background-color: blue; */
+  width: 340px;
+  height: 20px;
+  margin: 25px 0 0 19px;
+  display: inline-flex;
+  justify-content: space-between;
+  padding-top: 4px;
+}
+.mobile-progress .icon {
+  width: 12px;
+  height: 12px;
+}
+.mobile-progress h3 {
+  font-size: 12px;
+  padding-left: 7px;
+}
+
+.mobile-progress div {
+  display: inline-flex;
+}
+
+.mobile-divider {
+  width: 360px;
+  height: 1px;
+  background-color: black;
+  margin: 10px 0 0 10px;
+}
+
+.mobile-bodysection {
+  /* background-color: black; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.mobile-bodysection .team-profile {
+  /* background-color: blue; */
+  width: 100px;
+  height: 100px;
+  border: 1.5px solid #8030D0;
+  border-radius: 5px;
+  display: flex;
+  margin: 10px;
+  justify-content: end;
+  align-items: flex-end;
+  padding: 0 5px 5px 0;  
+}
+
+.mobile-bodysection img {
+  width: 30px;
+  height: 30px;
+}
+
+.mobile-chatbutton {
+  width: 70%;
+  height: 48px;
+  background-color: #8030D0;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  margin: 25px 0 0 55px;
+}
+
+.mobile-chatbutton i {
+  font-size: 25px;
+  margin-right: 10px;
+}
+.mobile-chatbutton h2 {
+  font-size: 15px;
+}
+
+.mobile-lowersection {
+  background-color: #8030D0;
+  width: 100%;
+  height: 70px;
+  display: inline-flex;
+  justify-content: space-around;
+  margin-top: 15px;
+
+}
+
+.mobile-lowersection .section {
+  /* background-color: blue; */
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  
+}
+
+
+.mobile-lowersection h2 {
+  font-weight: 700;
+font-size: 12px;
+color: #9E9EA0;
+}
+
+.mobile-lowersection .active {
+  font-weight: 700;
+font-size: 12px;
+color: #F9F9F9;
+margin-top: 10px;
+}
+
+.section {
+  color: #9E9EA0;
+}
+.section:hover {
+  color: #F9F9F9;
+  cursor: pointer;
+}
+
+.active h2 {
+ color: #F9F9F9; 
+}
+.active i {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+.active:hover {
+  color: #F9F9F9;
+  cursor: pointer;
+}
+
+.section i{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+.bx bxs-edit {
+  color: #9E9EA0;
+}
+.section .bx bx-home:hover {
+  color: rgb(25, 112, 77);
+}
+
+
+
+/* HIDDEN FOR MOBILE VIEW */
+.wavy-bg {
+  display: none;
+
+}
+.navbar .logo {
+  display: none;
+}
+
+.navbar .web-profile {
+  display: none;
+}
+
+.nav-links {
+  display: none;
+}
+.navbar button {
+  display: none;
+}
+.progress-tabs {
+  display: none;
+}
+.top-section button {
+  display: none;
+}
+.body-section {
+  display: none;
+}
+.chat-button {
+  display: none;
+}
+.lower-section {
+  display: none;
+}
+.wavy-background {
+  display: none;
+}
+.new-teamicon {
+  display: none;
+}
+.web-divider {
+  display: none;
+}
+
+
+
+
+@media screen and (min-width: 1000px) {
+  .navbar {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    background-color: #DEBCEE;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  
+  }
+  
+
+  .mobile-profile, .mobile-logo, .mobile-menu, .mobile-progress, .mobile-divider, .mobile-bodysection, .mobile-lowersection, .mobile-chatbutton {
+    display: none;
+
+  }
+ .navbar .logo {
+  display: block;
+  width: 120.82px;
+  height: 29px;
+  position: absolute;
+  left: 40px;
+}
+.nav-links {
+  display: block;
+}
+span.nav-links {
+  width: 367px;
+  height: 19px;
+  }
+.nav-links a {
+  color: #6f537d;
+  text-decoration: none;
+  display: inline-flex;
+  margin: 0 15px;
+  transition: 0.2s all ease-in-out;
+}
+.nav-links a:hover {
+  color: #16163F;
+  font-weight: 700;
+}
+.navbar button {
+  display: block;
+}
+.navbar .web-profile {
+  display: none;
+}
+
+a img {
+  width: 24.48px;
+  height: 24.5px;
+}
+span.profile-logout {
+  width: 250px;
+  display: flex;
+  position: absolute;
+  right: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+button {
+  width: 160px;
+  height: 54px;
+  background-color: #8030D0;
+  color: #FFFFFF;
+  border: 1px;
+  outline: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #6f537d;
+}
+.project {
+  color: #16163F;
+  font-weight: 700;
+}
+.navbar .web-profile {
+  display: block;
+}
+.wavy-background {
+  width: 100%;
+  height: 340px;
+  margin-top: 80px;
+}
+/* PROGRESS TAB SECTION */
+.progress-tabs {
+  display: block;
+}
+div .progress-tabs {
+  position: absolute;
+  /* background-color: aqua; */
+  width: 100%;
+  height: 390px;
+  top: 395px;
+  display: flex;
+  justify-content:  space-around;
+  padding: 0 70px;
+}
+
+div .progress-tabs .tab {
+  background-color:  #F9F9F9;
+  width: 316px;
+  height: 390px;
+  border: 2px solid #8030D0;
+  border-radius: 32px;
+  position: relative;
+ 
+  
+}
+
+div .progress-icon {
+  width: 190px;
+  height: 190px;
+  position: absolute;
+  top: 70px;
+  left: 60px;
+  
+
+}
+
+div .progress-texts {
+  width: 316px;
+  height: 74px;
+  position: absolute;
+  bottom: 0px;
+  background: #16163F;
+  border-radius: 0px 0px 32px 32px;
+}
+/* COPIED ONCE */
+
+.top-section button {
+  display: block;
+}
+.body-section {
+  display: block;
+}
+.chat-button {
+  display: block;
+}
+.lower-section {
+  display: block;
+}
+.wavy-background {
+  display: block;
+}
+.new-teamicon {
+  display: block;
+}
+div .main-section {
+  /* background-color: aqua; */
+  width: 95%;
+  height: 1097px;
+  /* position: absolute;
+  top: 890px;
+  left: 50px; */
+  margin-top: 25%;
+  margin-left: 2%;
+
+}
+.main-section .top-section {
+  /* background-color: chartreuse; */
+  width: 100%;
+  height: 70px;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.top-section span {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  font: 30px solid #16163F;
+ 
+}
+.main-section h1 {
+  font-size: 35px;
+  color: #16163F;
+  font-weight: 600; 
+  margin-top: 0px;
+}
+.web-divider {
+  display: block;
+}
+.web-divider {
+  width: 95%;
+  height: 1px;
+  background-color: black;
+  margin: 10px 0 20px 50px;
+}
+
+/* span h1 {
+  font-family: 'Inter', sans-serif;
+  font-size: 35px;
+  color: #16163F;
+  font-weight: 600;
+} */
+.new-teamicon {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 820px;
+  left: 550px;
+}
+.top-section button {
+  border: 1px solid #8030D0;
+  outline: none;
+  border-radius: 5px;
+}
+
+
+/* BODY SECTION */
+
+.body-section {
+  /* background-color: black; */
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 900px;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  padding-left: 55px;
+  padding-right: 20px;
+}
+
+.body-section .team-profile {
+  /* background-color: red; */
+  width: 350px;
+  height: 350px;
+  border: 5px solid #8030D0;
+  border-radius: 25px;
+  position: relative;
+}
+
+.team-profile img {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 25px;
+  bottom: 25px;
+}
+
+/* START BUTTON CONVERSATION */
+
+.chat-button {
+  background-color: #8030D0;
+  width: 400px;
+  height: 65px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #8030D0;
+  border-radius: 15px;
+  position: relative;
+  left: 400px;
+  top: 25px;
+  padding-top: 10px;
+  
+
+}
+
+.chat-button i {
+  font-size: 40px;
+  margin-right: 15px;
+}
+.chat-button h2 {
+  font-size: 30px;
+}
+
+/* LOWER SECTION */
+.lower-section {
+  /* position: absolute; */
+  width: 100%;
+  height: 480px;
+  background-color: #DEBCEE;
+  /* bottom: 5px; */
+  padding-top: 4%;
+  margin-top: 10%;
+}
+
+.lower-section .empty {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 10px;
+  
+}
+
+div .divider {
+  background-color: black;
+  width: 100%;
+  height: 2px;
+  
+}
+/* CONTENTS SECTION OF LOWER SECTION */
+
+.contents {
+  display: inline-flex;
+}
+
+/* LEFT CONTENT OF LOWER SECTION */
+.left-content {
+  /* background-color: red; */
+  width: 400px;
+  height: 300px;
+  margin-left: 40px;
+  padding-top: 60px;
+  box-sizing: border-box;
+
+}
+.left-content img {
+  width: 120.82px;
+  height: 29px;
+  position: relative;
+  left: 10px;
+}
+.left-content h2 {
+  font-size: 20px;
+  position: relative;
+  top: 20px;
+  left: 10px;
+  color: #16163F;
+  
+}
+
+.left-content .social-links {
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border: 2px solid white;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.left-content a {
+  text-decoration: none;
+}
+.left-content .links {
+  display: flex;
+  position: relative;
+  top: 30px;
+}
+
+.social-links i {
+  font-size: 25px;
+}
+
+/* RIGHT CONTENT OF LOWER SECTION */
+
+.right-content {
+  /* background-color: darkgreen; */
+  width: 350px;
+  height: 300px;
+  margin-left: 450px;
+  display: inline-flex;
+  padding-top: 50px;
+}
+
+.right-content .features-column {
+  margin-left: 25%;
+}
+
+.right-content .heading {
+  font-size: 25px;
+  font-weight: 550;
+}
+.right-content ul a {
+  text-decoration: none;
+  color: #16163F;
+}
+.right-content ul li {
+  list-style-type: none;
+  
+}
+
+.lower-section .footer {
+  font-size: 25px;
+  text-align: center;
+  font-weight: 300;
+}
+
+
+.team-icon img {
+  display: none;
+}
+
+}
+
+

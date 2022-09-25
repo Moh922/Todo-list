@@ -1,0 +1,410 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.body {
+  /* width: 100%;
+  height: 100vh; */
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+
+}
+
+.navbar {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  background-color: #DEBCEE;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+}
+.navbar .menu-dropdown {
+  color: #6f537d;
+  display: none;
+
+}
+.logo {
+  width: 120.82px;
+  height: 29px;
+  position: absolute;
+  left: 40px;
+}
+span.nav-links {
+width: 367px;
+height: 19px;
+}
+
+.nav-links a {
+  color: #6f537d;
+  text-decoration: none;
+  display: inline-flex;
+  margin: 0 15px;
+  transition: 0.2s all ease-in-out;
+}
+.nav-links a:hover {
+  color: #16163F;
+  font-weight: 700;
+}
+.project {
+  color: #16163F;
+  font-weight: 700;
+}
+
+span.profile-logout {
+  width: 250px;
+  display: flex;
+  position: absolute;
+  right: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a img {
+  width: 24.48px;
+  height: 24.5px;
+}
+ 
+
+button {
+  width: 160px;
+  height: 54px;
+  background-color: #8030D0;
+  color: #FFFFFF;
+  border: 1px;
+  outline: none;
+  border-radius: 2px;
+}
+
+/* WAVY BACKGROUND */
+
+.wavy-bg {
+  display: flex;
+  background-color: #8030D0;
+  width: 100%;
+  height: 340px;
+  margin-top: 80px;
+  justify-content: center;
+
+
+}
+
+
+span.wavy-text1 {
+  width: 876px;
+  height: 61px;
+  /* font-family: 'Inter'; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  color: #FFFFFF;
+  margin-top: 80px;
+}
+
+span.wavy-text2 {
+  position: absolute;
+  width: 812px;
+  height: 24px;
+  margin-top: 160px;
+  /* font-family: 'Inter'; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #FFFFFF;
+}
+
+div .progress-tabs {
+  position: absolute;
+  /* background-color: aqua; */
+  width: 100%;
+  height: 390px;
+  top: 395px;
+  display: flex;
+  justify-content:  space-around;
+  padding: 0 70px;
+}
+
+div .progress-tabs .tab {
+  background-color:  #F9F9F9;
+  width: 316px;
+  height: 390px;
+  border: 2px solid #8030D0;
+  border-radius: 32px;
+  position: relative;
+ 
+  
+}
+
+div .progress-icon {
+  width: 190px;
+  height: 190px;
+  position: absolute;
+  top: 70px;
+  left: 60px;
+  
+
+}
+
+div .progress-texts {
+  width: 316px;
+  height: 74px;
+  position: absolute;
+  bottom: 0px;
+  background: #16163F;
+  border-radius: 0px 0px 32px 32px;
+}
+
+div .main-section {
+  /* background-color: aqua; */
+  width: 95%;
+  height: 1097px;
+  /* position: absolute;
+  top: 890px;
+  left: 50px; */
+  margin-top: 25%;
+  margin-left: 2%;
+
+}
+
+.main-section .top-section {
+  /* background-color: chartreuse; */
+  width: 100%;
+  height: 70px;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.top-section span {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  font: 30px solid #16163F;
+ 
+}
+ span h1 {
+  font-family: 'Inter', sans-serif;
+  font-size: 35px;
+  color: #16163F;
+  font-weight: 600;
+}
+.top-section .team-icon img {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 470px;
+}
+.top-section button {
+  border: 1px solid #8030D0;
+  outline: none;
+  border-radius: 5px;
+}
+
+.main-section .empty {
+  background-color: black;
+  width: 100%;
+  height: 2px;
+
+
+}
+/* TEAM MEMBERS SECTION */
+.body-section {
+  /* background-color: black; */
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 900px;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.body-section .team-profile {
+  /* background-color: red; */
+  width: 350px;
+  height: 350px;
+  border: 5px solid #8030D0;
+  border-radius: 25px;
+  position: relative;
+}
+
+.team-profile img {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 25px;
+  bottom: 25px;
+}
+/* START CONVERSATION BUTTON */
+.chat-button {
+  background-color: #8030D0;
+  width: 400px;
+  height: 65px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #8030D0;
+  border-radius: 15px;
+  position: relative;
+  left: 400px;
+  top: 25px;
+  padding-top: 10px;
+  
+
+}
+
+.chat-button i {
+  font-size: 40px;
+  margin-right: 15px;
+}
+
+.chat-button h2 {
+  font-size: 30px;
+}
+
+/* LOWER SECTION */
+
+.lower-section {
+  /* position: absolute; */
+  width: 100%;
+  height: 480px;
+  background-color: #DEBCEE;
+  /* bottom: 5px; */
+  padding-top: 4%;
+  margin-top: 10%;
+}
+
+.lower-section .empty {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 10px;
+  
+}
+
+
+div .divider {
+  background-color: black;
+  width: 100%;
+  height: 2px;
+  
+}
+
+/* CONTENTS SECTION OF LOWER SECTION */
+.contents {
+  display: inline-flex;
+}
+
+/* LEFT CONTENT OF LOWER SECTION */
+.left-content {
+  /* background-color: red; */
+  width: 400px;
+  height: 300px;
+  margin-left: 40px;
+  padding-top: 60px;
+  box-sizing: border-box;
+
+}
+.left-content img {
+  width: 120.82px;
+  height: 29px;
+  position: relative;
+  left: 10px;
+}
+.left-content h2 {
+  font-size: 20px;
+  position: relative;
+  top: 20px;
+  left: 10px;
+  color: #16163F;
+  
+}
+
+.left-content .social-links {
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border: 2px solid white;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.left-content a {
+  text-decoration: none;
+}
+.left-content .links {
+  display: flex;
+  position: relative;
+  top: 30px;
+}
+
+.social-links i {
+  font-size: 25px;
+}
+
+/* RIGHT CONTENT OF LOWER SECTION */
+
+.right-content {
+  /* background-color: darkgreen; */
+  width: 350px;
+  height: 300px;
+  margin-left: 450px;
+  display: inline-flex;
+  padding-top: 50px;
+}
+
+.right-content .features-column {
+  margin-left: 25%;
+}
+
+
+.right-content .heading {
+  font-size: 25px;
+  font-weight: 550;
+}
+.right-content ul a {
+  text-decoration: none;
+  color: #16163F;
+}
+.right-content ul li {
+  list-style-type: none;
+  
+}
+
+.lower-section .footer {
+  font-size: 25px;
+  text-align: center;
+  font-weight: 300;
+}
+
+
+
+
+@media screen and (min-width: 1440px) {
+  .navbar {
+    width: 1440px;
+    height: 80px;
+    display: flex;
+    background-color: #DEBCEE;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  
+  }
+  
+ 
+}
